@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LF DESIGN CAMARAGIBE | Design Gráfico</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#080808;
+    color:#fff;
+}
+
+header{
+    padding:20px;
+    background:#111;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    border-bottom:1px solid #333;
+}
+
+.logo{
+    font-size:25px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#00e5ff;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin:8px;
+}
+
+.hero{
+    min-height:600px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:40px 20px;
+    background:
+    radial-gradient(circle at top,#12313a,#080808 60%);
+}
+
+.hero-content{
+    max-width:800px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin:10px 0;
+}
+
+.hero h1 span{
+    color:#00e5ff;
+}
+
+.hero p{
+    font-size:20px;
+    color:#ccc;
+    line-height:1.6;
+}
+
+.botao{
+    display:inline-block;
+    padding:15px 25px;
+    margin-top:20px;
+    background:#00e5ff;
+    color:#000;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:70px 20px;
+}
+
+.titulo{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.titulo h2{
+    font-size:35px;
+}
+
+.titulo p{
+    color:#aaa;
+}
+
+.servicos{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#151515;
+    padding:25px;
+    border-radius:16px;
+    border:1px solid #292929;
+}
+
+.card h3{
+    color:#00e5ff;
+}
+
+.card p{
+    color:#bbb;
+    line-height:1.5;
+}
+
+.preco{
+    font-size:28px;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+.sobre{
+    background:#101010;
+}
+
+.sobre p{
+    color:#ccc;
+    line-height:1.7;
+    font-size:17px;
+}
+
+.contato{
+    text-align:center;
+    padding:70px 20px;
+    background:#0d1518;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#080808;
+    color:#777;
+}
+
+@media(max-width:600px){
+
+    .hero h1{
+        font-size:38px;
+    }
+
+    header{
+        justify-content:center;
+        gap:15px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+LF <span>DESIGN CAMARAGIBE</span>
+</div>
+
+<nav>
+
+<a href="#servicos">Serviços</a>
+
+<a href="#sobre">Sobre</a>
+
+<a href="#contato">Contato</a>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<div class="hero-content">
+
+<p>🎨 DESIGN GRÁFICO PROFISSIONAL</p>
+
+<h1>
+Sua marca merece um
+<span>design que impressiona.</span>
+</h1>
+
+<p>
+Criação de artes profissionais para empresas,
+empreendedores, lojas e redes sociais.
+</p>
+
+<a class="botao"
+href="https://wa.me/5581999352607">
+💬 SOLICITAR ORÇAMENTO
+</a>
+
+</div>
+
+</section>
+
+
+<section class="container" id="servicos">
+
+<div class="titulo">
+
+<h2>🎨 Nossos serviços</h2>
+
+<p>Design profissional para destacar sua marca.</p>
+
+</div>
+
+
+<div class="servicos">
+
+
+<div class="card">
+
+<h3>🎨 Post para Instagram</h3>
+
+<p>
+Arte profissional para divulgação
+nas redes sociais.
+</p>
+
+<div class="preco">
+R$ 45,00
+</div>
+
+<a class="botao"
+href="https://wa.me/5581999352607">
+PEDIR AGORA
+</a>
+
+</div>
+
+
+<div class="card">
+
+<h3>💎 Logotipo Profissional</h3>
+
+<p>
+Criação de identidade visual
+para sua marca.
+</p>
+
+<div class="preco">
+R$ 42,00
+</div>
+
+<a class="botao"
+href="https://wa.me/5581999352607">
+PEDIR AGORA
+</a>
+
+</div>
+
+
+<div class="card">
+
+<h3>📱 Cartão Digital</h3>
+
+<p>
+Cartão digital profissional
+para compartilhar.
+</p>
+
+<div class="preco">
+R$ 55,00
+</div>
+
+<a class="botao"
+href="https://wa.me/5581999352607">
+PEDIR AGORA
+</a>
+
+</div>
+
+
+<div class="card">
+
+<h3>📢 Panfleto</h3>
+
+<p>
+Arte profissional para divulgar
+seus produtos e serviços.
+</p>
+
+<div class="preco">
+R$ 54,90
+</div>
+
+<a class="botao"
+href="https://wa.me/5581999352607">
+PEDIR AGORA
+</a>
+
+</div>
+
+
+<div class="card">
+
+<h3>🏢 Banner / Fachada</h3>
+
+<p>
+Design profissional para
+sua empresa.
+</p>
+
+<div class="preco">
+R$ 59,90
+</div>
+
+<a class="botao"
+href="https://wa.me/5581999352607">
+PEDIR AGORA
+</a>
+
+</div>
+
+
+<div class="card">
+
+<h3>🏷️ Etiquetas Personalizadas</h3>
+
+<p>
+Etiquetas personalizadas
+para seus produtos.
+</p>
+
+<div class="preco">
+R$ 44,90
+</div>
+
+<a class="botao"
+href="https://wa.me/5581999352607">
+PEDIR AGORA
+</a>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<section class="sobre" id="sobre">
+
+<div class="container">
+
+<div class="titulo">
+
+<h2>💡 Sobre a LF DESIGN</h2>
+
+</div>
+
+<p>
+A LF DESIGN CAMARAGIBE trabalha com criação de
+artes gráficas profissionais para empresas,
+empreendedores e pessoas que desejam melhorar
+sua presença visual nas redes sociais.
+</p>
+
+<p>
+Nosso objetivo é transformar ideias em designs
+modernos, profissionais e personalizados.
+</p>
+
+</div>
+
+</section>
+
+
+<section class="contato" id="contato">
+
+<h2>🚀 Vamos criar seu projeto?</h2>
+
+<p>
+Entre em contato com a LF DESIGN CAMARAGIBE.
+</p>
+
+<a class="botao"
+href="https://wa.me/5581999352607">
+💬 FALAR NO WHATSAPP
+</a>
+
+<p>📍 Camaragibe - Pernambuco</p>
+
+<p>📲 (81) 99935-2607</p>
+
+<p>📸 @lfdesigncamaragibe</p>
+
+</section>
+
+
+<footer>
+
+LF DESIGN CAMARAGIBE © 2026
+
+<br><br>
+
+Design gráfico profissional.
+
+</footer>
+
+</body>
+
+</html>
